@@ -46,7 +46,7 @@ Here are some projects that I have worked on in the past.
 ## Mathematics
 Below is a selection of seminar notes that I have written over the past few years.
 - [Homotopy Groups of Wedges of Spheres](/home/uploads/Homotopy_Groups_of_Wedges_of_Spheres.pdf) – brief summary.
-- [Eilenberg--MacLane Spaces](/home/uploads/EM-spaces.pdf)
+- [Eilenberg--MacLane Spaces](/home/uploads/EM-spaces.pdf) -- brief summary.
 
 ### Theses
 - MSc.: [The Madsen--Weiss Theorem](/home/uploads/Thesis_Jan.pdf)
