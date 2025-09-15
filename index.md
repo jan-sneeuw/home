@@ -10,13 +10,19 @@ This is still work in progress!
 
 ---
 
+<br><br>
+
 ## About Me
 A short intro about who you are.  
 - Background or current role  
 - Interests or skills  
-- What visitors can expect to find here  
+- What visitors can expect to find here
+
+<br><br>
 
 ---
+
+<br><br>
 
 ## 💻 Projects
 Here are a few things I’ve been working on:
@@ -27,11 +33,15 @@ Here are a few things I’ve been working on:
 
 ---
 
+<br><br>
+
 ## ✍️ Blog
 Latest posts or articles:  
 - [Post Title 1](/personal-website/2025/09/15/blogpost-01.html) – brief summary.  
 
 ---
+
+<br><br>
 
 ## 📬 Contact
 Let’s connect!  
