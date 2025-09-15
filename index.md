@@ -8,49 +8,60 @@ date: 2025-09-15
  
 This is still work in progress!
 
+<br>
+
 ---
 
-<br><br>
+<br>
 
 ## About Me
-A short intro about who you are.  
-- Background or current role  
-- Interests or skills  
-- What visitors can expect to find here
+I obtained my Master's Degree in Mathematics at the University of Bonn in September 2025 under supervision of Prof. Markus Hausmann and Dr. Andrea Bianchi. I specialed in Algebraic Topology and wrote my thesis on the Madsen--Weiss Theorem.
 
-<br><br>
+I have experience in HPC-Linux-Systemadministration (TBA) and a long-standing passion for cybersecurity
+
+<br>
 
 ---
 
-<br><br>
+<br>
 
-## 💻 Projects
+## Projects
 Here are a few things I’ve been working on:
 
-- [**Project One**](https://github.com/yourusername/project-one) — short description of what it does.
-- [**Project Two**](https://github.com/yourusername/project-two) — another description.
-- [**More on GitHub »**](https://github.com/yourusername)
+- [**CySec Blog**](/personal-website/2025/09/15/blogpost-01.html) — short description of what I am busy with.
+- [**ML Project**](https://github.com/yourusername/project-two) — another description.
+- [**SEC Trading Project**](https://github.com/yourusername/project-two) — another description.
+
+<br>
 
 ---
 
-<br><br>
+<br>
 
-## ✍️ Blog
+## Cybersecurity Blog
 Latest posts or articles:  
 - [Post Title 1](/personal-website/2025/09/15/blogpost-01.html) – brief summary.  
 
----
-
-<br><br>
-
-## 📬 Contact
-Let’s connect!  
-- Email: [your@email.com](mailto:your@email.com)  
-- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)  
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)  
+<br>
 
 ---
 
-© 2025 Your Name · Powered by [GitHub Pages](https://pages.github.com/)
+<br>
+
+## Contact
+You can find me here:  
+- Email: [your@email.com](mailto:jansneeuw@web.de)  
+- LinkedIn: [linkedin.com/in/yourusername](www.linkedin.com/in/jan-sneeuw-325728294)  
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+© 2025 Jan Sneeuw · Powered by [GitHub Pages](https://pages.github.com/)
+</div>
+
 
 
