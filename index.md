@@ -38,9 +38,13 @@ Here are a few things I’ve been working on:
 
 <br>
 
-## Cybersecurity Blog
-Latest posts or articles:  
-- [Post Title 1](/home/2025/09/15/blogpost-01.html) – brief summary.  
+## Mathematics
+Below is a selection of seminar notes that I have written over the past few years.
+- [Post Title 1](/home/2025/09/15/blogpost-01.html) – brief summary.
+
+### Theses
+- MSc.: [The Madsen--Weiss Theorem](/home/uploads/Thesis_Jan.pdf)
+- BSc.: [The Lyndon--Hochschild--Serre Spectral Sequence](/home/uploads/Thesis_Jan.pdf)
 
 <br>
 
