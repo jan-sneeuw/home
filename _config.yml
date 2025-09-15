@@ -3,11 +3,6 @@ theme: minima
 title: "Jan Sneeuw"
 author: "Jan Sneeuw"
 
-minima:
-  nav_pages:
-    - about.md
-    - portfolio.md
-
 #header_pages:
 #  - index.md
 #  - posts.md
@@ -21,6 +16,7 @@ sass:
 # Enable plugins if needed
 plugins:
   - jekyll-feed
+
 
 
 
