@@ -1,8 +1,6 @@
 ---
 ---
 
-@import "minima";
-
 :root {
   --bg-color: #ffffff;
   --text-color: #333333;
@@ -27,6 +25,7 @@ a {
   color: var(--link-color);
 }
 
+/* Fixed position theme toggle */
 .theme-toggle {
   position: fixed;
   top: 20px;
@@ -37,4 +36,19 @@ a {
   border-radius: 20px;
   cursor: pointer;
   z-index: 1000;
+  transition: var(--transition);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .theme-toggle {
+    top: 10px;
+    right: 10px;
+    padding: 6px 10px;
+  }
 }
