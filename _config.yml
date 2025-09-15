@@ -1,7 +1,5 @@
 # For remote theme (GitHub Pages compatible):
-remote_theme: daattali/beautiful-jekyll
-plugins:
-  - jekyll-remote-theme
+theme: minima
 title: "Jan Sneeuw"
 author: "Jan Sneeuw"
 
@@ -14,6 +12,7 @@ header_pages:
 # Enable plugins if needed
 plugins:
   - jekyll-feed
+
 
 
 
