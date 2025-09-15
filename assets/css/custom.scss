@@ -1,0 +1,41 @@
+// assets/css/custom.scss
+---
+---
+
+@import "minima";
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --link-color: #0056b3;
+  --border-color: #eaeaea;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #f0f0f0;
+  --link-color: #4da6ff;
+  --border-color: #444;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  color: var(--link-color);
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
