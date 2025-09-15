@@ -1,8 +1,3 @@
----
-layout: default
-title: "Home"
----
-
 # 👋 Hello, I’m Your Name
 
 Welcome to my personal website!  
