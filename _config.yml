@@ -1,5 +1,13 @@
 theme: minima
 title: "My Personal Webpage"
 author: "Jan Sneeuw"
-header_pages: []
 
+header_pages:
+  - index.md
+  - posts.md
+  - papers.md
+  - pictures.md
+
+# Enable plugins if needed
+plugins:
+  - jekyll-feed
