@@ -1,5 +1,7 @@
 # For remote theme (GitHub Pages compatible):
-theme: jekyll-theme-hacker
+remote_theme: daattali/beautiful-jekyll
+plugins:
+  - jekyll-remote-theme
 title: "Jan Sneeuw"
 author: "Jan Sneeuw"
 
@@ -12,6 +14,7 @@ header_pages:
 # Enable plugins if needed
 plugins:
   - jekyll-feed
+
 
 
 
