@@ -4,17 +4,10 @@ title: Home
 date: 2025-09-15
 ---
 
-## Welcome to my Webpage
+## About Me
  
 **This is still work in progress!**
 
-<br>
-
----
-
-<br>
-
-## About Me
 I obtained my Master's Degree in Mathematics at the University of Bonn in September 2025 under supervision of Prof. Markus Hausmann and Dr. Andrea Bianchi. I specialized in Algebraic Topology and wrote my thesis on the Madsen--Weiss Theorem.
 
 I have experience in HPC-Linux-Systemadministration (TBA) and a long-standing passion for cybersecurity.
