@@ -1,5 +1,4 @@
 ---
-title: "My Webpage"
 date: 2025-09-15
 ---
 
@@ -28,7 +27,7 @@ Here are a few things I’ve been working on:
 
 ## ✍️ Blog
 Latest posts or articles:  
-- [Post Title 1](/2025/09/15/blogpost-01.html) – brief summary.  
+- [Post Title 1](/personal-website/2025/09/15/blogpost-01.html) – brief summary.  
 
 ---
 
