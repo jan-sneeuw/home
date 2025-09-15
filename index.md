@@ -8,7 +8,7 @@ date: 2025-09-15
  
 **This is still work in progress!**
 
-I obtained my Master's Degree in Mathematics at the University of Bonn in September 2025 under supervision of Prof. Markus Hausmann and Dr. Andrea Bianchi. I specialized in Algebraic Topology and wrote my thesis on the Madsen--Weiss Theorem.
+I obtained my Master's Degree in Mathematics at the University of Bonn in September 2025 under supervision of Prof. Markus Hausmann and Dr. Andrea Bianchi. I specialized in Algebraic Topology and wrote my thesis on the Madsen—Weiss Theorem.
 
 I have experience in HPC-Linux-Systemadministration (TBA) and a long-standing passion for cybersecurity.
 
@@ -32,10 +32,10 @@ Here are a few things I’ve been working on:
 <br>
 
 ## Past Projects
-Here are some projects that I have worked on in the past.
+Here are some miscellaneous projects that I have worked on in the past.
 
-- [**Pentesting Bikeseek**](LINK) -- short description.
-- [**Collaborative Text Editor**](https://github.com/jan-sneeuw/Collaborative-Text-Editor) -- A web-development project where I created a collaborative text-editor akin to a simplified version of Google-Docs. 
+- [**Penetration Testing**](/home/uploads/Pentest_Report.pdf) — Authorized penetration testing of the domain Bikeseek.org using common tools such as Burpsuite. Succesful XSS documented. 
+- [**Collaborative Text Editor**](https://github.com/jan-sneeuw/Collaborative-Text-Editor) — A web-development project where I created a collaborative text-editor akin to a simplified version of Google-Docs. 
 
 <br>
 
@@ -45,12 +45,12 @@ Here are some projects that I have worked on in the past.
 
 ## Mathematics
 Below is a selection of seminar notes that I have written over the past few years.
-- [Homotopy Groups of Wedges of Spheres](/home/uploads/Homotopy_Groups_of_Wedges_of_Spheres.pdf) – brief summary.
-- [Eilenberg--MacLane Spaces](/home/uploads/EM-spaces.pdf) -- brief summary.
+- [Homotopy Groups of Wedges of Spheres](/home/uploads/Homotopy_Groups_of_Wedges_of_Spheres.pdf) — brief summary.
+- [Eilenberg—MacLane Spaces](/home/uploads/EM-spaces.pdf) — brief summary.
 
 ### Theses
-- MSc.: [The Madsen--Weiss Theorem](/home/uploads/Thesis_Jan.pdf)
-- BSc.: [The Lyndon--Hochschild--Serre Spectral Sequence](/home/uploads/LHS_corr.pdf)
+- MSc.: [The Madsen—Weiss Theorem](/home/uploads/Thesis_Jan.pdf)
+- BSc.: [The Lyndon—Hochschild—Serre Spectral Sequence](/home/uploads/LHS_corr.pdf)
 
 <br>
 
