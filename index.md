@@ -3,14 +3,13 @@ title: "My Webpage"
 date: 2025-09-15
 ---
 
-# 👋 Hello, I’m Your Name
-
-Welcome to my personal website!  
-Here you’ll find my projects, blog posts, and ways to connect with me.
+# Welcome to my Webpage
+ 
+This is still work in progress!
 
 ---
 
-## 🧑 About Me
+## About Me
 A short intro about who you are.  
 - Background or current role  
 - Interests or skills  
@@ -29,8 +28,7 @@ Here are a few things I’ve been working on:
 
 ## ✍️ Blog
 Latest posts or articles:  
-- [Post Title 1](./blog/post1) – brief summary.  
-- [Post Title 2](./blog/post2) – brief summary.  
+- [Post Title 1](./posts/2025-09-15-blogpost-01.md) – brief summary.  
 
 ---
 
