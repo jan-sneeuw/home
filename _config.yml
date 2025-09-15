@@ -3,15 +3,20 @@ theme: minima
 title: "Jan Sneeuw"
 author: "Jan Sneeuw"
 
-header_pages:
-  - index.md
-  - posts.md
-  - papers.md
-  - pictures.md
+#header_pages:
+#  - index.md
+#  - posts.md
+#  - papers.md
+#  - pictures.md
+
+sass:
+  sass_dir: assets/css
+  style: compressed
 
 # Enable plugins if needed
 plugins:
   - jekyll-feed
+
 
 
 
