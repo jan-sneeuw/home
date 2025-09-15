@@ -50,8 +50,8 @@ Latest posts or articles:
 
 ## Contact
 You can find me here:  
-- Email: [your@email.com](mailto:jansneeuw@web.de)  
-- LinkedIn: [linkedin.com/in/yourusername](www.linkedin.com/in/jan-sneeuw-325728294)  
+- [E-Mail](mailto:jansneeuw@web.de)  
+- [Linkedin](www.linkedin.com/in/jan-sneeuw-325728294)  
 
 <br>
 
@@ -60,8 +60,9 @@ You can find me here:
 <br>
 
 <div align="center">
-© 2025 Jan Sneeuw · Powered by [GitHub Pages](https://pages.github.com/)
+© 2025 Jan Sneeuw · Powered by <a href="https://pages.github.com/">GitHub Pages</a>
 </div>
+
 
 
 
