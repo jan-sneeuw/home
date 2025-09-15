@@ -15,7 +15,7 @@ This is still work in progress!
 <br>
 
 ## About Me
-I obtained my Master's Degree in Mathematics at the University of Bonn in September 2025 under supervision of Prof. Markus Hausmann and Dr. Andrea Bianchi. I specialized in Algebraic Topology and wrote my [thesis](/personal-website/uploads/Thesis_Jan.pdf) on the Madsen--Weiss Theorem.
+I obtained my Master's Degree in Mathematics at the University of Bonn in September 2025 under supervision of Prof. Markus Hausmann and Dr. Andrea Bianchi. I specialized in Algebraic Topology and wrote my [thesis](/home/uploads/Thesis_Jan.pdf) on the Madsen--Weiss Theorem.
 
 I have experience in HPC-Linux-Systemadministration (TBA) and a long-standing passion for cybersecurity
 
@@ -28,7 +28,7 @@ I have experience in HPC-Linux-Systemadministration (TBA) and a long-standing pa
 ## Projects
 Here are a few things I’ve been working on:
 
-- [**CySec Blog**](/personal-website/2025/09/15/blogpost-01.html) — short description of what I am busy with.
+- [**CySec Blog**](/home/2025/09/15/blogpost-01.html) — short description of what I am busy with.
 - [**ML Project**](https://github.com/yourusername/project-two) — another description.
 - [**SEC Trading Project**](https://github.com/yourusername/project-two) — another description.
 
@@ -40,7 +40,7 @@ Here are a few things I’ve been working on:
 
 ## Cybersecurity Blog
 Latest posts or articles:  
-- [Post Title 1](/personal-website/2025/09/15/blogpost-01.html) – brief summary.  
+- [Post Title 1](/home/2025/09/15/blogpost-01.html) – brief summary.  
 
 <br>
 
