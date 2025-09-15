@@ -1,5 +1,5 @@
 theme: minima
-title: "My Personal Webpage"
+title: "Jan Sneeuw"
 author: "Jan Sneeuw"
 
 header_pages:
@@ -11,3 +11,4 @@ header_pages:
 # Enable plugins if needed
 plugins:
   - jekyll-feed
+
