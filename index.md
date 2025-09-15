@@ -35,7 +35,7 @@ Here are a few things I’ve been working on:
 Here are some projects that I have worked on in the past.
 
 - [**Pentesting Bikeseek**](LINK) -- short description.
-- [**Collaborative Text Editor**](LINK) -- short description.
+- [**Collaborative Text Editor**](https://github.com/jan-sneeuw/Collaborative-Text-Editor) -- A web-development project where I created a collaborative text-editor akin to a simplified version of Google-Docs. 
 
 <br>
 
