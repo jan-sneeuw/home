@@ -6,7 +6,7 @@ date: 2025-09-15
 
 ## Welcome to my Webpage
  
-This is still work in progress!
+**This is still work in progress!**
 
 <br>
 
@@ -15,9 +15,9 @@ This is still work in progress!
 <br>
 
 ## About Me
-I obtained my Master's Degree in Mathematics at the University of Bonn in September 2025 under supervision of Prof. Markus Hausmann and Dr. Andrea Bianchi. I specialized in Algebraic Topology and wrote my [thesis](/home/uploads/Thesis_Jan.pdf) on the Madsen--Weiss Theorem.
+I obtained my Master's Degree in Mathematics at the University of Bonn in September 2025 under supervision of Prof. Markus Hausmann and Dr. Andrea Bianchi. I specialized in Algebraic Topology and wrote my thesis on the Madsen--Weiss Theorem.
 
-I have experience in HPC-Linux-Systemadministration (TBA) and a long-standing passion for cybersecurity
+I have experience in HPC-Linux-Systemadministration (TBA) and a long-standing passion for cybersecurity.
 
 <br>
 
@@ -25,7 +25,7 @@ I have experience in HPC-Linux-Systemadministration (TBA) and a long-standing pa
 
 <br>
 
-## Projects
+## Current Projects
 Here are a few things I’ve been working on:
 
 - [**CySec Blog**](/home/2025/09/15/blogpost-01.html) — short description of what I am busy with.
@@ -38,13 +38,26 @@ Here are a few things I’ve been working on:
 
 <br>
 
+## Past Projects
+Here are some projects that I have worked on in the past.
+
+- [**Pentesting Bikeseek**](LINK) -- short description.
+- [**Collaborative Text Editor**](LINK) -- short description.
+
+<br>
+
+---
+
+<br>
+
 ## Mathematics
 Below is a selection of seminar notes that I have written over the past few years.
-- [Post Title 1](/home/2025/09/15/blogpost-01.html) – brief summary.
+- [Homotopy Groups of Wedges of Spheres](/home/uploads/Homotopy_Groups_of_Wedges_of_Spheres.pdf) – brief summary.
+- [Eilenberg--MacLane Spaces](/home/uploads/EM-spaces.pdf)
 
 ### Theses
 - MSc.: [The Madsen--Weiss Theorem](/home/uploads/Thesis_Jan.pdf)
-- BSc.: [The Lyndon--Hochschild--Serre Spectral Sequence](/home/uploads/Thesis_Jan.pdf)
+- BSc.: [The Lyndon--Hochschild--Serre Spectral Sequence](/home/uploads/LHS_corr.pdf)
 
 <br>
 
