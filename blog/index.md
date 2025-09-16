@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "CySec"
+title: "Blog"
 ---
 
 # Adventures in Cybersecurity
