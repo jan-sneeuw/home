@@ -53,8 +53,8 @@ Here are some miscellaneous projects that I have worked on in the past.
 
 ## Mathematics
 Below is a selection of seminar notes that I have written over the past few years.
-- [Homotopy Groups of Wedges of Spheres](/home/uploads/Homotopy_Groups_of_Wedges_of_Spheres.pdf) — brief summary.
-- [Eilenberg—MacLane Spaces](/home/uploads/EM-spaces.pdf) — brief summary.
+- [Homotopy Groups of Wedges of Spheres](/home/uploads/Homotopy_Groups_of_Wedges_of_Spheres.pdf) — The homotopy groups $\pi_n(T)$ for a finite wedge sum of spheres $T$ can be computed as $\bigoplus_{i=1}^\infty \pi_n(S^{q_i})$, where the *heights* $q_i$ can be calculated algorithmically.
+- [Eilenberg—MacLane Spaces](/home/uploads/EM-spaces.pdf) — Definition of $K(G,n)$-spaces and proof of the classical Brown-Representability Theorem $[X,K(G,n)]_* \cong H^n(X;G)$.
 
 ### Theses
 - Master: [The Madsen—Weiss Theorem](/home/uploads/Thesis_Jan.pdf) — First proven in 2004, the Madsen—Weiss Theorem states that the stable homology of $B\text{Diff}(\Sigma_g)$, for $\Sigma_g$ a surface of genus $g$, is given by a specific infinite loop space $\Omega^\infty_\bullet\mathbf{\Psi}$. Importantly, it resolves the famous Mumford Conjecture, predicting an isomorphism of rings $H^*(\Gamma_\infty;\mathbb{Q}) \cong \mathbb{Q}[\kappa_1,\kappa_2,\ldots]$, where $\Gamma_\infty$ denotes the stable mapping class group of surfaces and $\vert\kappa_i\vert = 2i$.
