@@ -6,11 +6,9 @@ date: 2025-09-15
 
 <br>
 
-## About Me
+## About Me 🚧  **Work In Progress!**  🚧
 
-<img src="/home/uploads/image.png" alt="My photo" style="float: right; margin: 0 0 10px 20px; width: 185px; border-radius: 15px;">
- 
-🚧  **This is still work in progress!**  🚧
+<img src="/home/uploads/image.png" alt="My photo" style="float: right; margin: 0 0 25px 25px; width: 185px; border-radius: 15px;">
 
 I obtained my Master's Degree in Mathematics at the University of Bonn in September 2025 under supervision of Prof. Markus Hausmann and Dr. Andrea Bianchi. I specialized in Algebraic Topology and wrote my thesis on the Madsen—Weiss Theorem.
 
