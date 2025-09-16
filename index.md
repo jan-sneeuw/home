@@ -36,7 +36,7 @@ Here are a few things I’ve been working on:
 ## Past Projects
 Here are some miscellaneous projects that I have worked on in the past.
 
-- [**Penetration Testing**](/home/uploads/Pentest_Report.pdf) — Authorized penetration testing of the domain Bikeseek.org using common tools such as Burpsuite. Succesful XSS documented. 
+- [**Penetration Testing**](/home/uploads/Pentest_Report.pdf) — Authorized penetration testing of the domain Bikeseek.org using common tools such as Burpsuite. Successful XSS documented. 
 - [**Collaborative Text Editor**](https://github.com/jan-sneeuw/Collaborative-Text-Editor) — A web-development project where I created a collaborative text-editor akin to a simplified version of Google-Docs. 
 
 <br>
