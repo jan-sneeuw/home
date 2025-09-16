@@ -17,8 +17,10 @@
   --border-color: #444;
 }
 
-* {
-  box-sizing: border-box;
+.site-header {
+  background: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 body {
