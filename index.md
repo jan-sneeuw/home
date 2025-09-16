@@ -61,8 +61,8 @@ Below is a selection of seminar notes that I have written over the past few year
 - Bachelor: [The Lyndon—Hochschild—Serre Spectral Sequence](/home/uploads/LHS_corr.pdf) — The analogue to the classical Serre spectral sequence in terms of group (co)homology and group extensions. More precisely, we show that there exists a natural spectral sequence 
 {% raw %}
   $$E^2_{p,q} = H_p(Q; H_q(H;M)) \Rightarrow H_{p+q}(G;M),$$
+  where $M$ is a $\mathbb{Z}G$-module and $1 \to H \to G \to Q \to 1$ a short exact sequence of groups.
 {% endraw %}
-where $M$ is a $\mathbb{Z}G$-module and $1 \to H \to G \to Q \to 1$ a short exact seuquence of groups.
 
 <br>
 
