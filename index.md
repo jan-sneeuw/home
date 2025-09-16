@@ -58,7 +58,7 @@ Below is a selection of seminar notes that I have written over the past few year
 
 ### Theses
 - Master: [The Madsen—Weiss Theorem](/home/uploads/Thesis_Jan.pdf) — First proven in 2004, the Madsen—Weiss Theorem states that the stable homology of $B\text{Diff}(\Sigma_g)$, for $\Sigma_g$ a surface of genus $g$, is given by a specific infinite loop space $\Omega^\infty_\bullet\mathbf{\Psi}$. Importantly, it resolves the famous Mumford Conjecture, predicting an isomorphism of rings $H^*(\Gamma_\infty;\mathbb{Q}) \cong \mathbb{Q}[\kappa_1,\kappa_2,\ldots]$, where $\Gamma_\infty$ denotes the stable mapping class group of surfaces and $\vert\kappa_i\vert = 2i$.
-- Bachelor: [The Lyndon—Hochschild—Serre Spectral Sequence](/home/uploads/LHS_corr.pdf) — The analogue to the classical Serre spectral sequence in terms of group (co)homology and group extensions. More precisely, we show that there exists a natural spectral sequence \[E^2_{p,q} = H_p(Q; H_q(H;M)) \Rightarrow H_{p+q}(G;M),\]
+- Bachelor: [The Lyndon—Hochschild—Serre Spectral Sequence](/home/uploads/LHS_corr.pdf) — The analogue to the classical Serre spectral sequence in terms of group (co)homology and group extensions. More precisely, we show that there exists a natural spectral sequence
 {% raw %}
   $$E^2_{p,q} = H_p(Q; H_q(H;M)) \Rightarrow H_{p+q}(G;M),$$
 {% endraw %}
