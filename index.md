@@ -73,7 +73,7 @@ Below is a selection of seminar notes that I have written over the past few year
 <br>
 
 ## Contact
-You can find me here:  
+Feel free to contact me here:  
 - [E-Mail](mailto:jansneeuw@web.de)  
 - [Linkedin](www.linkedin.com/in/jan-sneeuw-325728294)  
 
