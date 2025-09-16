@@ -7,6 +7,8 @@ date: 2025-09-15
 <br>
 
 ## About Me
+
+<img src="/uploads/image.png" alt="My photo" style="float: right; margin: 0 0 10px 20px; width: 200px; border-radius: 10px;">
  
 🚧  **This is still work in progress!**  🚧
 
