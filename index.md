@@ -59,10 +59,10 @@ Below is a selection of seminar notes that I have written over the past few year
 ### Theses
 <ul style="list-style-type: disc; padding-left: 0px;">
   <li>
-    Master: <a href="https://jan-sneeuw.github.io/home/uploads/Thesis_Jan.pdf">The Madsen—Weiss Theorem</a> — First proven in 2004, the Madsen—Weiss Theorem states that the stable homology of $B\text{Diff}(\Sigma_g)$, for $\Sigma_g$ a surface of genus $g$, is given by a specific infinite loop space $\Omega^\infty_\bullet\mathbf{\Psi}$. Importantly, it resolves the famous Mumford Conjecture, predicting an isomorphism of rings $$H^*(\Gamma_\infty;\mathbb{Q}) \cong \mathbb{Q}[\kappa_1, \kappa_2, \kappa_3, \ldots],$$ where $\Gamma_\infty$ denotes the stable mapping class group of surfaces and the Miller—Morita—Mumford classes have even degree, i.e. $\vert\kappa_i\vert = 2i$.
+    Master: <a href="https://jan-sneeuw.github.io/home/uploads/Thesis_Jan.pdf" target="_blank" rel="noopener noreferrer">The Madsen—Weiss Theorem</a> — First proven in 2004, the Madsen—Weiss Theorem states that the stable homology of $B\text{Diff}(\Sigma_g)$, for $\Sigma_g$ a surface of genus $g$, is given by a specific infinite loop space $\Omega^\infty_\bullet\mathbf{\Psi}$. Importantly, it resolves the famous Mumford Conjecture, predicting an isomorphism of rings $$H^*(\Gamma_\infty;\mathbb{Q}) \cong \mathbb{Q}[\kappa_1, \kappa_2, \kappa_3, \ldots],$$ where $\Gamma_\infty$ denotes the stable mapping class group of surfaces and the Miller—Morita—Mumford classes have even degree, i.e. $\vert\kappa_i\vert = 2i$.
   </li>
   <li>
-    Bachelor: <a href="https://jan-sneeuw.github.io/home/uploads/LHS_corr.pdf">The Lyndon—Hochschild—Serre Spectral Sequence</a> — The analogue to the classical Serre spectral sequence in terms of group (co)homology and group extensions. More precisely, we show that there exists a natural spectral sequence $$E^2_{p,q} = H_p(Q; H_q(H;M)) \Rightarrow H_{p+q}(G;M),$$ where $M$ is a $\mathbb{Z}G$-module and $1 \to H \to G \to Q \to 1$ a short exact sequence of groups.
+    Bachelor: <a href="https://jan-sneeuw.github.io/home/uploads/LHS_corr.pdf" target="_blank" rel="noopener noreferrer">The Lyndon—Hochschild—Serre Spectral Sequence</a> — The analogue to the classical Serre spectral sequence in terms of group (co)homology and group extensions. More precisely, we show that there exists a natural spectral sequence $$E^2_{p,q} = H_p(Q; H_q(H;M)) \Rightarrow H_{p+q}(G;M),$$ where $M$ is a $\mathbb{Z}G$-module and $1 \to H \to G \to Q \to 1$ a short exact sequence of groups.
   </li>
 </ul>
 
