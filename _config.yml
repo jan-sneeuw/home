@@ -3,6 +3,8 @@ theme: minima
 title: "Jan Sneeuw"
 author: "Jan Sneeuw"
 
+lang: en
+
 #minima:
 #skin: dark
 
@@ -19,6 +21,7 @@ sass:
 # Enable plugins if needed
 plugins:
   - jekyll-feed
+
 
 
 
