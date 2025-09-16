@@ -1,17 +1,15 @@
 ---
 layout: default
-title: "CySec Blog"
+title: "CySec"
 ---
 
 # Adventures in Cybersecurity
 
-Welcome to my cybersecurity blog. Here you’ll find all posts listed by date:
+Welcome to my cybersecurity blog. I am planning on posting small tid-bits, write-ups of CTF challenges and learning experiences in cybersecurity.
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <small>({{ post.date | date: "%B %d, %Y" }})</small>
-    </li>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p>{{ post.excerpt }}</p>
   {% endfor %}
 </ul>
