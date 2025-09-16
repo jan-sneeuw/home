@@ -30,6 +30,13 @@ a {
   color: var(--link-color);
 }
 
+.about-me {
+  text-align: justify;     /* makes the right edge more flush */
+  hyphens: auto;           /* enables automatic hyphenation */
+  -webkit-hyphens: auto;   /* for Safari/Chrome */
+  -ms-hyphens: auto;       /* for old IE */
+}
+
 /* Fixed position theme toggle */
 .theme-toggle {
   position: fixed;
