@@ -57,7 +57,7 @@ Below is a selection of seminar notes that I have written over the past few year
 - [Eilenberg—MacLane Spaces](/home/uploads/EM-spaces.pdf) — brief summary.
 
 ### Theses
-- Master: [The Madsen—Weiss Theorem](/home/uploads/Thesis_Jan.pdf) — First proven in 2004, the MW-Theorem says that the stable homology of $B\text{Diff}(\Sigma_g)$, for $\Sigma_g$ a surface of genus $g$, is given by a certain infinite loop space $\Omega^\infty_\bullet\mathbf{\Psi}$. Importantly, it resolves the famous Mumford Conjecture, stating that there is an isomorphism of rings $H^*(\Gamma_\infty;\mathbb{Q}) \cong \mathbb{Q}[\kappa_1,\kappa_2,\ldots]$ where $\Gamma_\infty$ denotes the mapping class of $\Sigma_\infty$ and $|\kappa_i| = 2i$.
+- Master: [The Madsen—Weiss Theorem](/home/uploads/Thesis_Jan.pdf) — First proven in 2004, the MW-Theorem says that the stable homology of $B\text{Diff}(\Sigma_g)$, for $\Sigma_g$ a surface of genus $g$, is given by a certain infinite loop space $\Omega^\infty_\bullet\mathbf{\Psi}$. Importantly, it resolves the famous Mumford Conjecture, stating that there is an isomorphism of rings $H^*(\Gamma_\infty;\mathbb{Q}) \cong \mathbb{Q}[\kappa_1,\kappa_2,\ldots]$ where $\Gamma_\infty$ denotes the mapping class of $\Sigma_\infty$ and $\vert\kappa_i\vert = 2i$.
 - Bachelor: [The Lyndon—Hochschild—Serre Spectral Sequence](/home/uploads/LHS_corr.pdf) — 
 
 <br>
