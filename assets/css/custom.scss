@@ -33,6 +33,7 @@ a {
 .about-me {
   text-align: justify;     /* makes the right edge more flush */
   hyphens: auto;           /* enables automatic hyphenation */
+  white-space: nowrap;     /* keeps the link on one line */
   -webkit-hyphens: auto;   /* for Safari/Chrome */
   -ms-hyphens: auto;       /* for old IE */
 }
