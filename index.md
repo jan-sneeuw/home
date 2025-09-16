@@ -6,9 +6,9 @@ date: 2025-09-15
 
 <br>
 
-<div class="about-me">
-
 ## About Me 🚧  **Work In Progress!**  🚧
+
+<div class="about-me">
 
 <img src="/home/uploads/image.png" alt="My photo" style="float: right; margin: 0 0 25px 25px; width: 185px; border-radius: 15px;">
 
