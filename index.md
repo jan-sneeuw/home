@@ -22,7 +22,7 @@ I have experience in HPC-Linux-Systemadministration (TBA) and a long-standing pa
 ## Current Projects
 Here are a few things I’ve been working on:
 
-- [**CySec Blog**](/home/2025/09/15/blogpost-01.html) — short description of what I am busy with.
+- [**CySec Blog**](/blog/) — short description of what I am busy with.
 - [**ML Project**](https://github.com/yourusername/project-two) — another description.
 - [**SEC Trading Project**](https://github.com/yourusername/project-two) — another description.
 
