@@ -31,59 +31,65 @@ a {
 }
 
 .about-me {
-  text-align: justify;     /* makes the right edge more flush */
-  hyphens: auto;           /* enables automatic hyphenation */
-  // white-space: nowrap;     /* keeps the link on one line */
-  -webkit-hyphens: auto;   /* for Safari/Chrome */
-  -ms-hyphens: auto;       /* for old IE */
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
-/* Fixed position theme toggle */
-.theme-toggle {
-  position: fixed;
-  top: 12px;
-  right: 20px;
-  background: var(--bg-color);
-  border: 1px solid var(--border-color);
-  padding: 8px 12px;
-  border-radius: 20px;
+/* Theme toggle in navigation - POSITION ADJUSTED LEFT */
+.nav-theme-toggle {
+  background: none;
+  border: none;
   cursor: pointer;
-  z-index: 1000;
-  transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.3s ease;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  opacity: 1;
+  font-size: 1.2rem;
+  padding: 0.3rem 0.5rem;
+  margin-right: 1rem;
+  margin-left: -0.5rem; /* Added to shift button left */
+  transition: transform 0.3s;
+  color: var(--text-color);
 }
 
-.theme-toggle.hidden {
-   transform: translateY(-100px);
-   opacity: 0;
+.nav-theme-toggle:hover {
+  transform: scale(1.1);
 }
 
-.theme-toggle:hover {
-  transform: scale(1.05);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+/* Show moon icon in light mode, hide sun */
+[data-theme="light"] .nav-theme-toggle .sun-icon {
+  display: none;
 }
 
-/* Responsive design for mobile */
-@media (max-width: 768px) {
-  .theme-toggle {
-    top: 10px;
-    right: 10px;
-    padding: 6px 10px;
-  }
+/* Show sun icon in dark mode, hide moon */
+[data-theme="dark"] .nav-theme-toggle .moon-icon {
+  display: none;
+}
+
+/* Hide the original floating toggle */
+.theme-toggle {
+  display: none;
 }
 
 /* Brighter header in dark mode */
 [data-theme="dark"] .site-title,
 [data-theme="dark"] .site-title:visited {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 [data-theme="dark"] .page-link,
 [data-theme="dark"] .page-link:visited {
-    color: #f0f0f0 !important;
+  color: #f0f0f0 !important;
 }
 
 [data-theme="dark"] .page-link:hover {
-    color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .nav-theme-toggle {
+    font-size: 1.1rem;
+    padding: 0.2rem 0.4rem;
+    margin-right: 0.8rem;
+    margin-left: -0.3rem;
+  }
 }
