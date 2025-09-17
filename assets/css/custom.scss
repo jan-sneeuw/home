@@ -72,3 +72,18 @@ a {
     padding: 6px 10px;
   }
 }
+
+/* Brighter header in dark mode */
+[data-theme="dark"] .site-title,
+[data-theme="dark"] .site-title:visited {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .page-link,
+[data-theme="dark"] .page-link:visited {
+    color: #f0f0f0 !important;
+}
+
+[data-theme="dark"] .page-link:hover {
+    color: #ffffff !important;
+}
