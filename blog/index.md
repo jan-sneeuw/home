@@ -5,7 +5,7 @@ title: "Blog"
 
 # Adventures in Cybersecurity
 
-Welcome to my cybersecurity blog. I am planning on posting small tid-bits, write-ups of CTF challenges and learning experiences in cybersecurity.
+Welcome to my cybersecurity blog. I am planning on posting small tid-bits, write-ups of CTF-challenges and learning experiences that are connected to cybersecurity in some way.
 
 <ul>
   {% for post in site.posts %}
