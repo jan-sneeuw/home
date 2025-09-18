@@ -32,8 +32,8 @@ Moreover, I have a long-standing passion for cybersecurity. Both through my work
 Here are a few things I’ve been working on:
 
 - [**CySec Blog**](/blog/) — A blog where I occasionally publish write-ups on cybersecurity concepts and challenges I find noteworthy.
-- [**ML Project**](https://github.com/yourusername/project-two) — I am looking to get more into Machine Learning and plan to follow old exercises of a Practical Lab taught at the University of Bonn in 2025.
-- [**SEC Trading Project**](https://github.com/yourusername/project-two) — I am planning to develop a trading algorithm depending on a subset of high-volume purchases of stocks listed by the SEC. In particular, I want to compare varying strategies through systematic backtesting to determine the degree of profitability.
+- **ML Project** — I am looking to get more into Machine Learning and plan to follow old exercises of a Practical Lab taught at the University of Bonn in 2025. More to follow soon.
+- **SEC Trading Project** — I am planning to develop a trading algorithm depending on a subset of high-volume purchases of stocks listed by the SEC. In particular, I want to compare varying strategies through systematic backtesting to determine the degree of profitability.
 
 <br>
 
