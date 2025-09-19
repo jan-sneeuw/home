@@ -1,42 +1,26 @@
 <footer class="site-footer h-card">
-  <!-- Your existing footer content -->
-  
-  <div class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
-    🌙/☀️
-  </div>
+  <!-- Your existing footer content remains here -->
 </footer>
 
 <script>
-    // Theme toggle functionality
-    function toggleTheme() {
-      const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
-      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-      
-      document.documentElement.setAttribute('data-theme', newTheme);
-      localStorage.setItem('theme', newTheme);
-    }
+  // Theme toggle functionality
+  function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+  }
 
-    // Apply saved theme on load
-    document.addEventListener('DOMContentLoaded', function() {
-      const savedTheme = localStorage.getItem('theme') || 'light';
-      document.documentElement.setAttribute('data-theme', savedTheme);
-      
-      // Set up scroll detection for the theme toggle button
-      let lastScrollTop = 0;
-      const themeToggle = document.getElementById('themeToggle');
-      
-      window.addEventListener('scroll', function() {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        
-        if (scrollTop > lastScrollTop && scrollTop > 200) {
-          // Scrolling down - hide button
-          themeToggle.classList.add('hidden');
-        } else {
-          // Scrolling up - show button
-          themeToggle.classList.remove('hidden');
-        }
-        
-        lastScrollTop = scrollTop;
-      }, { passive: true });
-    });
-  </script>
+  // Apply saved theme on load and connect new button
+  document.addEventListener('DOMContentLoaded', function() {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    
+    // Connect the new nav toggle button
+    const navThemeToggle = document.getElementById('navThemeToggle');
+    if (navThemeToggle) {
+      navThemeToggle.addEventListener('click', toggleTheme);
+    }
+  });
+</script>
