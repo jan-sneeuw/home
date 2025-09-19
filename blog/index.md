@@ -3,9 +3,9 @@ layout: default
 title: "Blog"
 ---
 
-# Adventures in Cybersecurity
+# Cybersecurity Blog
 
-Welcome to my cybersecurity blog. I am planning on posting small tid-bits, write-ups of CTF-challenges and learning experiences that are connected to cybersecurity in some way.
+Welcome to my cybersecurity blog! I am planning on posting small tid-bits, write-ups of CTF-challenges and learning experiences that are connected to cybersecurity in some way and that I found interesting.
 
 <ul>
   {% for post in site.posts %}
