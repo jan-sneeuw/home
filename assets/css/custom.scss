@@ -101,3 +101,67 @@ a {
   margin: 0 auto;     /* keep it centered */
   padding: 0 1rem;    /* side breathing room */
 }
+
+
+
+
+/* ---------- Code block & inline code: readable in both light & dark ---------- */
+
+/* general code block styling (light mode defaults) */
+pre,
+pre[class*="language-"],
+code[class*="language-"],
+.highlight,
+.highlight pre {
+  background: var(--code-bg, #f6f8fa);
+  color: var(--code-color, #0b1220);
+  border-radius: 4px;
+}
+
+/* inline code */
+p code,
+li code,
+td code,
+th code {
+  background: rgba(0,0,0,0.04);
+  font-size: 0.95em;
+}
+
+/* --- Dark mode overrides --- */
+[data-theme="dark"] pre,
+[data-theme="dark"] pre[class*="language-"],
+[data-theme="dark"] code[class*="language-"],
+[data-theme="dark"] .highlight,
+[data-theme="dark"] .highlight pre {
+  background: #0b0f14;           /* dark background for code blocks */
+  color: #e6eef8;                /* bright readable text */
+  border: 0px solid rgba(255,255,255,0.04);
+}
+
+/* Make syntax tokens inherit base color in dark mode to avoid invisible colors.
+   This sacrifices colored tokens, but guarantees readability. */
+[data-theme="dark"] .highlight .token,
+[data-theme="dark"] .highlight * {
+  color: inherit !important;
+  background: transparent !important;
+}
+
+/* Keep inline code visible in dark mode */
+[data-theme="dark"] p code,
+[data-theme="dark"] li code {
+  background: rgba(255,255,255,0.03);
+  color: #e6eef8;
+}
+
+/* A little spacing for code blocks between paragraphs */
+.highlight,
+pre {
+  margin: 1rem 0;
+}
+
+/* If your highlighter uses .rouge or .highlight wrappers, this covers those too */
+.rouge, .rouge pre {
+  background: transparent;
+  color: inherit;
+}
+
