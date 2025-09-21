@@ -8,7 +8,7 @@ date: 2025-09-15
 
 <br>
 
-## About Me 🚧  **WIP!**  🚧
+## About Me
 
 <div class="about-me">
 
