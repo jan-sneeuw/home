@@ -93,3 +93,11 @@ a {
     margin-left: -0.3rem;
   }
 }
+
+/* Make the whole site wider */
+.wrapper {
+  max-width: 75rem;   /* default is 36rem in Minima */
+  width: 95%;         /* scale with screen */
+  margin: 0 auto;     /* keep it centered */
+  padding: 0 1rem;    /* side breathing room */
+}
