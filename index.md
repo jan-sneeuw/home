@@ -76,8 +76,18 @@ Below is a selection of seminar notes that I have written over the past few year
 
 ## Contact
 Feel free to contact me here:  
-- [E-Mail](mailto:jansneeuw@web.de)  
-- [Linkedin](www.linkedin.com/in/jan-sneeuw-325728294)  
+
+<div>
+<a href="mailto:jansneeuw@web.de" class="contact-link">
+  <img src="/home/uploads/mail.svg" alt="Mail" class="icon" id="mail-icon">
+  E-Mail
+</a><br>
+<a href="https://www.linkedin.com/in/jan-sneeuw-325728294" class="contact-link">
+  <img src="/home/uploads/linkedin.svg" alt="LinkedIn" class="icon" id="linkedin-icon">
+  LinkedIn
+</a>
+</div>
+
 
 <br>
 
