@@ -81,13 +81,6 @@ Feel free to contact me here:
 
 <br>
 
----
-
-<br>
-
-<div align="center">
-© 2025 Jan Sneeuw · Powered by <a href="https://pages.github.com/">GitHub Pages</a>
-</div>
 
 
 
