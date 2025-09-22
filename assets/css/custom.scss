@@ -205,3 +205,24 @@ pre {
   color: #ddd; /* Light gray on hover in dark mode */
 }
 
+/* Contact section styles */
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;              /* no outside spacing */
+  padding: 0;             /* no inside spacing */
+  text-decoration: none;
+  color: var(--link-color);
+  line-height: 2;         /* shrink vertical spacing */
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.contact-link .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
