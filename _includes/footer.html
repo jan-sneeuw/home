@@ -26,3 +26,39 @@
     }
   });
 </script>
+
+
+<script>
+// Dynamic icon switching for dark mode
+function updateContactIcons() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const mailIcon = document.querySelector('.contact-link[href*="mail"] img');
+  const linkedinIcon = document.querySelector('.contact-link[href*="linkedin"] img');
+
+  if (mailIcon) {
+    mailIcon.src = isDark ? '/home/uploads/mail_dark.svg' : '/uploads/mail.svg';
+  }
+  if (linkedinIcon) {
+    linkedinIcon.src = isDark ? '/home/uploads/linkedin_dark.svg' : '/uploads/linkedin.svg';
+  }
+}
+
+// Update icons on theme change and page load
+document.addEventListener('DOMContentLoaded', function() {
+  updateContactIcons();
+
+  // Watch for theme changes
+  const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.attributeName === 'data-theme') {
+        updateContactIcons();
+      }
+    });
+  });
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['data-theme']
+  });
+});
+</script>
