@@ -165,3 +165,39 @@ pre {
   color: inherit;
 }
 
+
+
+
+
+/* ---------- Footer styling ---------- */
+.site-footer {
+  text-align: center;
+  font-size: 0.9em; /* Smaller text */
+  color: #666; /* Gray color */
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.site-footer a {
+  color: #666; /* Gray links */
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #333; /* Darker gray on hover */
+  text-decoration: underline;
+}
+
+/* Dark mode footer */
+[data-theme="dark"] .site-footer {
+  color: #aaa; /* Light gray for dark mode */
+}
+
+[data-theme="dark"] .site-footer a {
+  color: #aaa;
+}
+
+[data-theme="dark"] .site-footer a:hover {
+  color: #ddd; /* Light gray on hover in dark mode */
+}
+
