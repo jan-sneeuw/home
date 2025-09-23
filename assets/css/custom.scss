@@ -76,6 +76,11 @@ a {
   display: none;
 }
 
+[data-theme="dark"] .nav-theme-toggle .sun-icon {
+  width: 24px;
+  height: 24px;
+}
+
 /* Hide the original floating toggle */
 .theme-toggle {
   display: none;
