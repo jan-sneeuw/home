@@ -81,6 +81,11 @@ a {
   height: 24px;
 }
 
+.nav-theme-toggle .sun-icon {
+  width: 24px;   /* increase compared to default 20px */
+  height: 24px;
+}
+
 /* Hide the original floating toggle */
 .theme-toggle {
   display: none;
