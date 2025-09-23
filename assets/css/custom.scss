@@ -250,3 +250,14 @@ pre {
   margin-right: 8px;
   vertical-align: middle;
 }
+
+/* Make blockquote normal text (not italic, same size as body) */
+blockquote {
+  font-style: normal;     /* no italics */
+  font-size: 1em;         /* same size as normal text */
+  color: var(--text-color); /* use regular text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;   /* override justify */
+}
