@@ -54,9 +54,17 @@ a {
   color: var(--text-color);
 }
 
-.nav-theme-toggle:hover {
-  transform: scale(1.1);
+.nav-theme-toggle img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  vertical-align: middle;
+  //transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
+
+/*.nav-theme-toggle:hover {
+  transform: scale(1.1);
+}*/
 
 /* Show moon icon in light mode, hide sun */
 [data-theme="light"] .nav-theme-toggle .sun-icon {
