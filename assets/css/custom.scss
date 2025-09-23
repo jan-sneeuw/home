@@ -122,6 +122,12 @@ code[class*="language-"],
   border-radius: 4px;
 }
 
+/* Remove faint backgrounds from Rouge token spans in ALL modes */
+.highlight .token,
+.highlight * {
+  background: transparent !important;
+}
+
 /* inline code */
 p code,
 li code,
