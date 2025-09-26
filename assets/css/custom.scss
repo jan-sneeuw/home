@@ -281,19 +281,24 @@ h1, h2, h3, h4, h5, h6 {
 /* Dropdown menu background + text */
 .site-nav .trigger {
   display: flex;
-  align-items: right;
+  align-items: center;
   gap: .5rem; /* spacing between items */
   background: var(--bg-color);
   padding: 0.5rem 1rem;
-  /*border-radius: 0.4rem;*/
-  /*box-shadow: 0 2px 6px rgba(0,0,0,0.2);*/
+  justify-content: flex-end; /* push items to the right */
+  margin-right: 0;           /* reset any weird offsets */
+  padding-right: 0; 
+}
+
+/* Inherit wrapper alignment */
+.wrapper .site-nav .trigger {
+  max-width: 50rem; /* same as .wrapper */
+  width: 100%;
 }
 
 /* Ensure links inside dropdown are visible */
 .site-nav .trigger a {
   color: var(--text-color);
-  /*display: block;*/
-  /*padding: 0.3rem 0;*/
 }
 
 .site-nav .trigger a:hover {
