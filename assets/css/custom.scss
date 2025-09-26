@@ -261,3 +261,34 @@ blockquote {
 h1, h2, h3, h4, h5, h6 {
   text-align: left;   /* override justify */
 }
+
+
+
+/* --- Fix burger menu and dropdown for dark mode --- */
+
+/* Force burger (menu icon) to inherit theme text color */
+.menu-icon svg path {
+  fill: var(--text-color);
+  transition: fill 0.3s;
+}
+
+/* Dropdown menu background + text */
+.site-nav .trigger {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 8px;
+  padding: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Ensure links inside dropdown are visible */
+.site-nav .trigger a {
+  color: var(--text-color);
+  display: block;
+  padding: 0.3rem 0;
+}
+
+.site-nav .trigger a:hover {
+  color: var(--link-color);
+}
+
