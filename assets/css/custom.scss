@@ -268,8 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Force burger (menu icon) to inherit theme text color */
 .menu-icon svg path {
-  fill: var(--text-color);
-  transition: fill 0.3s;
+  fill: #333;   /* or #000 if you want it pure black */
 }
 
 /* Dropdown menu background + text */
