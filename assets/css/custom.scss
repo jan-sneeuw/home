@@ -282,11 +282,11 @@ h1, h2, h3, h4, h5, h6 {
 .site-nav .trigger {
   display: flex;
   align-items: center;
-  gap: 1rem; /* spacing between items */
+  gap: .5rem; /* spacing between items */
   background: var(--bg-color);
   padding: 0.5rem 1rem;
-  border-radius: 0.4rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  /*border-radius: 0.4rem;*/
+  /*box-shadow: 0 2px 6px rgba(0,0,0,0.2);*/
 }
 
 /* Ensure links inside dropdown are visible */
