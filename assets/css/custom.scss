@@ -286,8 +286,8 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--bg-color);
   padding: 0.5rem 1rem;
   justify-content: flex-end; /* push items to the right */
-  margin-right: 0;           /* reset any weird offsets */
-  padding-right: 0; 
+  /*margin-right: 0;           /* reset any weird offsets */
+  /*padding-right: 0;*/ 
 }
 
 /* Inherit wrapper alignment */
