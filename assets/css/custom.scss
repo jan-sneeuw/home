@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Ensure links inside dropdown are visible */
 .site-nav .trigger a {
   color: var(--text-color);
-  display: block;
+  /*display: block;*/
   padding: 0.3rem 0;
 }
 
