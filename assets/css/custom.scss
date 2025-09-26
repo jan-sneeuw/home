@@ -281,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Dropdown menu background + text */
 .site-nav .trigger {
   display: flex;
-  align-items: center;
+  align-items: right;
   gap: .5rem; /* spacing between items */
   background: var(--bg-color);
   padding: 0.5rem 1rem;
