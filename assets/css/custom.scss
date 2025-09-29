@@ -305,3 +305,88 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--link-color);
 }
 
+/* Smooth transition for header/nav when toggling light/dark */
+.site-header,
+.site-nav .trigger,
+.site-nav .trigger a {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+/* --- Blog cards --- */
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.blog-card {
+  display: block;
+  background: #f4f6f8;                  /* lighter grey so it stands out more */
+  color: var(--text-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  text-decoration: none;                /* no underline */
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+[data-theme="dark"] .blog-card {
+  background: #222;                     /* already distinct from dark bg */
+  color: var(--text-color);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.blog-card:hover {
+  transform: translateY(-3px);          /* subtle lift on hover */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+[data-theme="dark"] .blog-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Title bold */
+.blog-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+  text-decoration: none !important;     /* prevent underline */
+}
+
+/* Excerpt grey */
+.blog-card p {
+  margin: 0.5rem 0;
+  color: #666;                          /* lighter than body text */
+  text-decoration: none !important;
+}
+
+[data-theme="dark"] .blog-card p {
+  color: #aaa;                          /* light grey for dark mode */
+}
+
+/* Date same grey as excerpt */
+.blog-card .blog-date {
+  font-size: 0.9em;
+  color: #666;
+  text-decoration: none !important;
+}
+
+[data-theme="dark"] .blog-card .blog-date {
+  color: #aaa;
+}
+
+/* --- Remove underline from blog-card text --- */
+.blog-card,
+.blog-card:hover,
+.blog-card h3,
+.blog-card h3:hover,
+.blog-card p,
+.blog-card p:hover,
+.blog-card .blog-date,
+.blog-card .blog-date:hover {
+  text-decoration: none !important;
+}
