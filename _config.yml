@@ -14,13 +14,6 @@ minima:
       icon: x-twitter
       url: "https://x.com/jekyllrb"
 
-
-#header_pages:
-#  - index.md
-#  - posts.md
-#  - papers.md
-#  - pictures.md
-
 sass:
   sass_dir: assets/css
   style: compressed
@@ -28,6 +21,9 @@ sass:
 # Enable plugins if needed
 plugins:
   - jekyll-feed
+
+google_analytics: G-XXXXXXXXXX
+
 
 
 
