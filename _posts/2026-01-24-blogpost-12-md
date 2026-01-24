@@ -1,0 +1,7 @@
+---
+title: "Insecure Deserialization: A Practical Example"
+excerpt: Walkthrough of an interesting exercise on TryHackMe, using PHPGGC to perfrm an injection attack on a web-server.
+date: 2026-01-24
+---
+
+While working through the [insecure deserialisation](https://tryhackme.com/room/insecuredeserialisation) room on TryHackMe, I came across an exercise that peaked my interest: Task 7 discusses PHPGGC (PHP Gadget Chains), a tool for automating this aspect of pentesting, specifically for PHP applications.
