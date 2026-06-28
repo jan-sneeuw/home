@@ -49,4 +49,12 @@ Progress: 87664 / 87665 (100.00%)
 
 Also looked at robots.txt to simply find `/admin/`directory.
 
-Tried bruteforcing the admin login with `admin@recruitcorp.thm` using Burp, since on the homepage it says there exists an e-mail `careers@recruitcorp.thm`.
+Tried bruteforcing the admin login with `admin@recruitcorp.thm` using Burp, since on the homepage it says there exists an e-mail `careers@recruitcorp.thm`. 
+
+Then tried SQLi with the payload list TODO and got this weird behaviour that the first 64 payloads did nothing and then afterwards each payload was successful (maybe I was given some cookie at the first successful login?). 
+
+
+
+
+
+
