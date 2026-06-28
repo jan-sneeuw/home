@@ -1,0 +1,52 @@
+---
+title: "Operation Promotion"
+excerpt: CTF Challenge for general red team practice, using enumeration tactics, SQL injection, reverse shells and unauthorized privileged access.
+date: 2026-06-28
+---
+
+**WIP, only a rough sketch so far**
+
+```console
+root@ip-10-114-90-35:~# nmap -sC -sV --reason 10.114.177.42
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-06-28 18:32 UTC
+Nmap scan report for ip-10-114-177-42.eu-central-1.compute.internal (10.114.177.42)
+Host is up, received reset ttl 64 (0.00053s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE SERVICE     REASON         VERSION
+22/tcp  open  ssh         syn-ack ttl 64 OpenSSH 9.6p1 Ubuntu 3ubuntu13.16 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 45:b9:c6:d9:8e:5a:81:02:df:1f:f6:0d:6e:e3:61:ac (ECDSA)
+|_  256 26:b0:a1:e7:52:69:a4:9a:3e:20:ea:67:71:a8:00:91 (ED25519)
+80/tcp  open  http        syn-ack ttl 64 Apache httpd 2.4.58 ((Ubuntu))
+| http-robots.txt: 1 disallowed entry 
+|_/admin/
+|_http-title: RecruitCorp - Careers Portal
+|_http-server-header: Apache/2.4.58 (Ubuntu)
+139/tcp open  netbios-ssn syn-ack ttl 64 Samba smbd 4.6.2
+445/tcp open  netbios-ssn syn-ack ttl 64 Samba smbd 4.6.2
+```
+
+```console
+root@ip-10-114-90-35:~# gobuster dir -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -u http://10.114.177.42
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.114.177.42
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/admin                (Status: 301) [Size: 314] [--> http://10.114.177.42/admin/]
+/config               (Status: 403) [Size: 278]
+Progress: 87664 / 87665 (100.00%)
+```
+
+Also looked at robots.txt to simply find `/admin/`directory.
+
+Tried bruteforcing the admin login with `admin@recruitcorp.thm` using Burp, since on the homepage it says there exists an e-mail `careers@recruitcorp.thm`.
